@@ -1,0 +1,13 @@
+.footer-border {
+  position: relative;
+}
+
+.footer-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, $natural-85, transparent);
+}
